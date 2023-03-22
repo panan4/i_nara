@@ -1,0 +1,56 @@
+header { /* background-color: beige; */
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent);
+}
+header h1 {
+  width: 150px;
+}
+header h1 a img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .app {
+  font-family: "Jua", sans-serif;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-right: 20px;
+  color: #fff;
+}
+.container .nav { /* background-color: aqua; */ }
+.container .nav span {
+  width: 30px;
+  height: 5px;
+  display: block;
+  background-color: white;
+  border-radius: 5px;
+}
+.container .nav span:nth-of-type(2) {
+  margin: 5px 0;
+}
+
+.h_mid .contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+p img {
+  z-index: 101;
+}/*# sourceMappingURL=main.css.map */
